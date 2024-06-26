@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.content-wrap {
+    min-width: 400px;
+    max-width: 1310px;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+
+h2 {
+    font-family: 'Maven Pro';
+    font-weight: 400;
+    margin: 20px 0 0 20px;
+}
+
+section {
+    clear: both;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.nav ul li a:hover {
+    background-color: #242424;
+    color: white;
+    border-radius: 15px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav {
+    float: right;
+    padding-top: 6px;
+}
+
+.header {
+    float: left;
+}
+
+header {
+    margin: 0;
+    height: 100px;
+    padding: 12px;
+}
+
+.header h1 {
+    color: #242424;
+    font-family: 'Mina';
+
+}
+
+.logo {
+    float: left;
+    margin-right: 15px;
+}
+
+.logo img {
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.color-card {
+    background-color: #fff;
+    width: 150px;
+    padding: 7px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2) ;
+    margin: 20px 0 0 20px;
+    float: left;
+
+}
+
+.color {
+    width: 150px;
+    height: 150px;
+
+}
+
+.color-name {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-family: 'Roboto Condensed', Verdana, Geneva, Tahoma, sans-serif;
+    color: #363636;
+}
+
+table {
+    width: 150px;
+}
+
+td {
+    margin: 0;
+}
+
+.td-right {
+    text-align: right;
+}
+
+
+/* Sample colors seection */
+
+
+.midnight-blue {
+    background-color: 	#102C57;
+}
+
+.nice-blue {
+    background-color: #1679AB;
+}
+
+.sundown {
+    background-color: #FFB1B1;
+}
+
+.harmonies {
+    background-color: #FFCBCB;
+}
+
+
+/* Font Family section */
+
+
+.fonts-wrap {
+    padding-top: 20px;
+}
+
+.ffc-c1 {
+    float: left;
+    width: 160px;
+    height: 200px;
+}
+
+.ffc-c2 {
+    float: left;
+    width: 240px;
+    height: 200px;
+}
+
+.font-family-card {
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2) ;
+    margin: 20px 0 0 20px;
+    width: 400px;
+    float: left;
+    padding: 7px;
+}
+
+.font-source-code-pro {
+    font-family: 'Source Code Pro';
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.font-source-code-pro2 {
+    font-family: 'Source Code Pro';
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.font-poppins {
+    font-family: Poppins;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.font-poppins2 {
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.font-nunito-sans {
+    font-family: 'Nunito Sans';
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.font-nunito-sans2 {
+    font-family: 'Nunito Sans';
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+
+/* Text Style section */
+
+
+.text-style-wrap {
+    padding-top: 20px;
+}
+
+.text-style-card {
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2) ;
+    margin: 20px 0 0 20px;
+    width: 350px;
+    height: 150px;
+    float: left;
+    padding: 7px 7px 15px 7px;    
+}
+
+.text-style-card li {
+    margin-left: 30px
+}
+
+.text-style-card h1 {
+    padding: 10px;
+}
+
+
+/* Footer */
+
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+    text-align: center;
+}
+
+footer span {
+    font-weight: 700;
+}
+
